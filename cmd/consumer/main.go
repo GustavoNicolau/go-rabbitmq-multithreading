@@ -4,11 +4,12 @@ import (
 	"database/sql"
 	"encoding/json"
 
+	"fmt"
+
 	amqp "github.com/rabbitmq/amqp091-go"
 	"github.com/thenicolauuu/go-rabbitmq/internal/order/infra/database"
 	"github.com/thenicolauuu/go-rabbitmq/internal/order/usecase"
 	"github.com/thenicolauuu/go-rabbitmq/pkg/rabbitmq"
-	"fmt"
 )
 
 func main() {
